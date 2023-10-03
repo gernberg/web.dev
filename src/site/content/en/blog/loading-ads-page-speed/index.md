@@ -186,7 +186,7 @@ By using techniques such as asynchronous loading, lazy loading, optimizing ad fo
 
 ## Footnotes
 
-1. Ad Servers might have restrictions and requirements that apply. Ad Manager requires publishers to declare a refresh interval in the UI. Some buyers require a refresh declaration of greater than or equal to 240 seconds. In general, the longer the interval between refreshes, the more desirable your inventory is to buyers. [read more](https://support.google.com/admanager/answer/6286179?hl=en)
+1. Ad Servers might have restrictions and requirements that apply. As an example, Ad Manager requires publishers to declare their inventory that refreshes in the UI. Some buyers require a refresh declaration of greater than or equal to 240 seconds. In general, the longer the interval between refreshes, the more desirable your inventory is to buyers. [read more](https://support.google.com/admanager/answer/6286179?hl=en)
 
 
 
