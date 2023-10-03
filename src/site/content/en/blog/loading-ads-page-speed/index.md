@@ -123,7 +123,7 @@ By implementing lazy loading, ads are fetched dynamically when they are about to
   {% Img src="image/jL3OLOhcWUQDnR4XjewLBx4e3PC3/p4RuRhkucV695thelCNv.gif", alt="A visualization of ads refreshing on the page, without the top-level page being refreshed.", width="800", height="367" %}
 </figure>
 
-An additional technique that can balance page performance with loading ads is the ability to refresh ads every 30 to 120 seconds without reloading the entire page. This approach allows for dynamic updates of ad content without disrupting the user's browsing experience or causing unnecessary delays.
+An additional technique that can balance page performance with loading ads is the ability to refresh ads every 30 to 240 seconds[1](#footnotes) without reloading the entire page. This approach allows for dynamic updates of ad content without disrupting the user's browsing experience or causing unnecessary delays.
 
 On mobile apps, refreshing ads in existing web views provides better performance compared to reloading the entire page or recreating WebViews because it minimizes the data and resource overhead, leading to faster content updates and a smoother user experience without the latency associated with starting from scratch.
 
@@ -183,3 +183,11 @@ Forging partnerships with providers that prioritize speed—and have a track rec
 Achieving a balance between monetization and performance is crucial for website owners seeking to provide an exceptional user experience while maximizing revenue through online advertising.
 
 By using techniques such as asynchronous loading, lazy loading, optimizing ad formats and sizes, leveraging intelligent caching and carefully evaluating ad networks, and header bidding and providers, website owners can successfully navigate the challenges of loading ads without compromising page performance. Prioritizing efficient delivery of ads ultimately ensures user stratification, increased engagement, and sustainable revenue generation.
+
+## Footnotes
+
+1. Ad Servers might have restrictions and requirements that apply. Ad Manager requires publishers to declare a refresh interval in the UI. Some buyers require a refresh declaration of greater than or equal to 240 seconds. In general, the longer the interval between refreshes, the more desirable your inventory is to buyers. [read more](https://support.google.com/admanager/answer/6286179?hl=en)
+
+
+
+
